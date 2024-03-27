@@ -68,7 +68,7 @@ app.post("/api/sendRequest", async (req, res) => {
     maxBetaTimeTaken: maxBy(timestamps, "betaTimeTaken").betaTimeTaken,
     minTotalTimeTaken: minBy(timestamps, "totalTimeTaken").totalTimeTaken,
     maxTotalTimeTaken: maxBy(timestamps, "totalTimeTaken").totalTimeTaken,
-    data: timestamps,
+    // data: timestamps,
   };
 
   console.log("all done");
